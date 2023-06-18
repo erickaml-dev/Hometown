@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: #404040 ;
+}
+
+img {
+    width: 100px;
+}
+h1, h2{
+    font-family: 'DM Serif Display', serif;
+}
+
+h1{
+    margin: 0;
+    font-size: 3.052rem;
+}
+h2{font-size: 2.441rem;}
+  
+h3{font-size: 1.563rem;}
+
+/* SECTION HERO */
+.hero{
+    background-color: hsla(0, 0%, 25%, 0.678);
+    background-image: url(images/martinique.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.title-hero{
+    margin-bottom: .5em;
+    color: #FFF;
+    text-shadow: 0px 0px 10px #404040;
+}
+
+.subtitle{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+/*SECTION ACTIVITIES */
+
+.activity-section{
+    padding: 3em;
+    background-color: rgba(199, 249, 204, 0.349);
+    color: #1b4561;
+}
+
+.top-activity{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 3.5em;
+}
+
+.activity-img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.title-activity{
+    font-size: 1.252rem;
+    margin-bottom:.5em;
+    font-weight: 700;
+}
+.text-activity{
+    margin-top: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.activity{
+    max-width: 400px;
+}
+
+.marker{
+    background-color: rgba(128, 237, 153, 0.616);
+    padding: 0 .2em;
+    font-weight: 700;
+}
+/* GUIDE SECTION */
+.guide-section{
+    margin: 4em;
+}
+.card{
+    width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #38A3A5;
+    color: rgba(255, 255, 255, 0.652);
+    border-radius: 20px;
+    border-bottom: 10px solid #1b4561;
+    box-shadow: 2px 2px 10px rgba(64, 64, 64, 0.52);
+}
+.guide-card{
+    margin-left: 1em;
+}
+.title-guide{
+    margin-bottom: 0;
+    color: #FFF;
+}
+.guide-img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.presentation-guide{
+    font-style: italic;
+}
+
+.name-guide{
+    font-weight: 700;
+    color: #FFF;
+}
+
